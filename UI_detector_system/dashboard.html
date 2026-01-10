@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Detection Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Login Detection System</h1>
+    <span>Admin Panel</span>
+</header>
+
+<section class="alert-box">
+    ⚠ Suspicious Activity Detected:  
+    IP <strong>192.168.1.12</strong> attempted multiple logins.
+</section>
+
+<section class="table-section">
+    <h2>Recent Login Attempts</h2>
+
+    <table>
+        <tr>
+            <th>IP Address</th>
+            <th>Username</th>
+            <th>Attempts</th>
+            <th>Status</th>
+        </tr>
+        <tr>
+            <td>192.168.1.12</td>
+            <td>admin</td>
+            <td>5</td>
+            <td class="danger">Blocked</td>
+        </tr>
+        <tr>
+            <td>192.168.1.15</td>
+            <td>user01</td>
+            <td>1</td>
+            <td class="safe">Normal</td>
+        </tr>
+    </table>
+</section>
+
+</body>
+</html>
