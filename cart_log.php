@@ -1,4 +1,4 @@
-1. Start session (session.php)
+1. Start session
 
 php
 <?php
@@ -60,3 +60,4 @@ require 'session.php';
 echo "Cart Items: ";
 print_r(_SESSION['cart']);
 ?>
+
