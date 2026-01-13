@@ -5,5 +5,5 @@ if (!isset($_SESSION['user'])) {
 }
 ?>
 
-<h1>Welcome to BodyFitness 💪</h1>
+<h1>Welcome UsShopping 💪</h1>
 <a href="logout.php">Logout</a>
